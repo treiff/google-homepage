@@ -1,0 +1,28 @@
+div.header {
+	border: 2px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
+	min-width: 377px;
+	height: 60px;
+}
+
+div#main {
+	border: 1px solid red;
+	height: 231px;
+	margin-top: 20px;
+}
+
+img {
+	width: 269px;
+	height: 95px;
+	padding-top: 112px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div#search {
+	border: 1px solid yellow;
+	height: 102px;
+}
