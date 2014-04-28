@@ -4,11 +4,11 @@ body {
 	font-size: small;
 }
 
-div.header {
+.header {
 	float: right;
 }
 
-.header. ul {
+.header ul {
 	padding-right: 27px;
 }
 
@@ -22,7 +22,7 @@ div.header {
 	color: #777777;
 }
 
-div#main {
+#main {
 	text-align: center;
 }
 
@@ -36,14 +36,14 @@ img {
 	clear: both;
 }
 
-div#search {
+#search {
 	height: 102px;
 	text-align: center;
 }
 
 #search form input {
 	height: 26px;
-	margin-top: 19px;
+	margin: 10px auto;
 	width: 569px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -54,4 +54,37 @@ div#search {
 	font-size: 11px;
 	color: #444444;
 	margin-top: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-size: auto auto;
+	background-color: #ffffff;
+	font-weight: bold;
+}
+
+.left {
+	float: left;
+}
+
+.left li {
+	display: inline-block;
+}
+
+.right {
+	float: right;
+}
+
+.right li {
+	display: inline-block;
+}
+
+.footer {
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	font-family: Helvetica, Arial;
+	background-color: #f2f2f2;
+}
+
+.footer li {
+	padding-right: 27px;
 }
