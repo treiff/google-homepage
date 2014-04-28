@@ -15,11 +15,16 @@ body {
 .header ul li {
 	display: inline-block;
 	list-style-type: none;
+	padding-right: 15px;
 }
 
 .header a {
 	text-decoration: none;
 	color: #777777;
+}
+
+.header a:hover {
+	text-decoration: underline;
 }
 
 #main {
@@ -87,4 +92,34 @@ img {
 
 .footer li {
 	padding-right: 27px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #777777;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.signin {
+	border: 1px solid #4285f4;
+	background-color: #4285f4;
+	display: inline;
+	margin-left: 15px;
+	border-radius: 3px;
+	font-weight: bold;
+	margin-right: 30px;
+	padding: 6px 11px;
+	font-size: 1em;
+}
+
+.signin a:hover {
+	text-decoration: none;
+}
+
+.signin a {
+	color: #ffffff;
+	font-weight: bold;
 }
