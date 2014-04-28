@@ -1,16 +1,29 @@
+body {
+	margin: 0;
+	font-family: Helvetica, Arial;
+	font-size: small;
+}
+
 div.header {
-	border: 2px solid black;
-	padding-left: 30px;
-	padding-right: 30px;
-	position: relative;
-	min-width: 377px;
-	height: 60px;
+	float: right;
+}
+
+.header. ul {
+	padding-right: 27px;
+}
+
+.header ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.header a {
+	text-decoration: none;
+	color: #777777;
 }
 
 div#main {
-	border: 1px solid red;
-	height: 231px;
-	margin-top: 20px;
+	text-align: center;
 }
 
 img {
@@ -20,9 +33,25 @@ img {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	clear: both;
 }
 
 div#search {
-	border: 1px solid yellow;
 	height: 102px;
+	text-align: center;
+}
+
+#search form input {
+	height: 26px;
+	margin-top: 19px;
+	width: 569px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#search form button {
+	border: 1px solid rgba(0, 0, 0, 0.098);
+	border-radius: 2px;
+	font-size: 11px;
+	color: #444444;
+	margin-top: 8px;
 }
