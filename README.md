@@ -1,6 +1,8 @@
 google-homepage
 ===============
 
-odin project html/css project
+Clone of the google homepage, built using HTML and CSS.  From the [odin project](http://www.theodinproject.com) curriculum.
 
-http://www.theodinproject.com/web-development-101/html-css
+Worked through basic HTML and CSS fundamentals.
+
+See it live [here](http://htmlpreview.github.io/?https://github.com/treiff/google-homepage/blob/master/google_homepage.html).
